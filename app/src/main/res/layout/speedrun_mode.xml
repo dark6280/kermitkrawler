@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/only_background"
+    android:layoutDirection="ltr"
+    tools:context=".speedrun_mode">
+
+
+    <ImageView
+        android:id="@+id/level1_bg"
+        android:layout_width="220dp"
+        android:layout_height="170dp"
+        android:background="@color/cardview_dark_background"
+        app:layout_constraintBottom_toBottomOf="@+id/ivlevel1"
+        app:layout_constraintEnd_toEndOf="@+id/ivlevel1"
+        app:layout_constraintStart_toStartOf="@+id/ivlevel1"
+        app:layout_constraintTop_toTopOf="@+id/ivlevel1"
+        app:layout_constraintVertical_bias="0.194" />
+
+    <ImageView
+        android:id="@+id/ivlevel1"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:scaleType="fitXY"
+        android:onClick="onClick"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.162"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.144"
+        app:srcCompat="@mipmap/level_1_preview" />
+
+    <TextView
+        android:id="@+id/level1_best"
+        android:layout_width="75dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="12dp"
+        android:gravity="center"
+        android:text="Best:"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="@+id/ivlevel1"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/ivlevel1"
+        app:layout_constraintTop_toBottomOf="@+id/ivlevel1" />
+
+    <TextView
+        android:id="@+id/level1_time"
+        android:layout_width="120dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="12dp"
+        android:gravity="center_vertical"
+        android:text="'???'"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="@+id/level1_best"
+        app:layout_constraintStart_toEndOf="@+id/level1_best"
+        app:layout_constraintTop_toTopOf="@+id/level1_best"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/level2_bg"
+        android:layout_width="220dp"
+        android:layout_height="170dp"
+        android:background="@color/cardview_dark_background"
+        app:layout_constraintBottom_toBottomOf="@+id/ivlevel2"
+        app:layout_constraintEnd_toEndOf="@+id/ivlevel2"
+        app:layout_constraintStart_toStartOf="@+id/ivlevel2"
+        app:layout_constraintTop_toTopOf="@+id/ivlevel2"
+        app:layout_constraintVertical_bias="0.194" />
+
+    <ImageView
+        android:id="@+id/ivlevel2"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:scaleType="fitXY"
+        android:onClick="onClick"
+        app:layout_constraintBottom_toBottomOf="@+id/ivlevel1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.466"
+        app:layout_constraintStart_toStartOf="@+id/ivlevel1"
+        app:layout_constraintTop_toTopOf="@+id/ivlevel1"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@mipmap/level_2_preview" />
+
+    <TextView
+        android:id="@+id/level2_best"
+        android:layout_width="75dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="12dp"
+        android:gravity="center"
+        android:text="Best:"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="@+id/ivlevel2"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/ivlevel2"
+        app:layout_constraintTop_toBottomOf="@+id/ivlevel2" />
+
+    <TextView
+        android:id="@+id/level2_time"
+        android:layout_width="120dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="12dp"
+        android:gravity="center_vertical"
+        android:text="'???'"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="@+id/level2_best"
+        app:layout_constraintStart_toEndOf="@+id/level2_best"
+        app:layout_constraintTop_toTopOf="@+id/level2_best"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/level3_bg"
+        android:layout_width="220dp"
+        android:layout_height="170dp"
+        android:background="@color/cardview_dark_background"
+        app:layout_constraintBottom_toBottomOf="@+id/ivlevel3"
+        app:layout_constraintEnd_toEndOf="@+id/ivlevel3"
+        app:layout_constraintStart_toStartOf="@+id/ivlevel3"
+        app:layout_constraintTop_toTopOf="@+id/ivlevel3"
+        app:layout_constraintVertical_bias="0.194" />
+
+    <ImageView
+        android:id="@+id/ivlevel3"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:scaleType="fitXY"
+        android:onClick="onClick"
+        app:layout_constraintBottom_toBottomOf="@+id/ivlevel1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.921"
+        app:layout_constraintStart_toStartOf="@+id/ivlevel1"
+        app:layout_constraintTop_toTopOf="@+id/ivlevel1"
+        app:layout_constraintVertical_bias="0.167"
+        app:srcCompat="@mipmap/level_3_preview" />
+
+    <TextView
+        android:id="@+id/level3_best"
+        android:layout_width="75dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="12dp"
+        android:gravity="center"
+        android:text="Best:"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="@+id/ivlevel3"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/ivlevel3"
+        app:layout_constraintTop_toBottomOf="@+id/ivlevel3" />
+
+    <TextView
+        android:id="@+id/level3_time"
+        android:layout_width="120dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="12dp"
+        android:gravity="center_vertical"
+        android:text="'???'"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="@+id/level3_best"
+        app:layout_constraintStart_toEndOf="@+id/level3_best"
+        app:layout_constraintTop_toTopOf="@+id/level3_best"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/level4_bg"
+        android:layout_width="220dp"
+        android:layout_height="170dp"
+        android:background="@color/cardview_dark_background"
+        app:layout_constraintBottom_toBottomOf="@+id/ivlevel4"
+        app:layout_constraintEnd_toEndOf="@+id/ivlevel4"
+        app:layout_constraintStart_toStartOf="@+id/ivlevel4"
+        app:layout_constraintTop_toTopOf="@+id/ivlevel4"
+        app:layout_constraintVertical_bias="0.194" />
+
+    <ImageView
+        android:id="@+id/ivlevel4"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:scaleType="fitXY"
+        android:onClick="onClick"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/ivlevel1"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/ivlevel1"
+        app:layout_constraintTop_toTopOf="@+id/ivlevel1"
+        app:layout_constraintVertical_bias="0.71"
+        app:srcCompat="@mipmap/level_4_preview" />
+
+    <TextView
+        android:id="@+id/level4_best"
+        android:layout_width="75dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="12dp"
+        android:gravity="center"
+        android:text="Best:"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="@+id/ivlevel4"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/ivlevel4"
+        app:layout_constraintTop_toBottomOf="@+id/ivlevel4" />
+
+    <TextView
+        android:id="@+id/level4_time"
+        android:layout_width="120dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="12dp"
+        android:gravity="center_vertical"
+        android:text="'???'"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="@+id/level4_best"
+        app:layout_constraintStart_toEndOf="@+id/level4_best"
+        app:layout_constraintTop_toTopOf="@+id/level4_best"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/boss_battle_bg"
+        android:layout_width="220dp"
+        android:layout_height="170dp"
+        android:background="#d812db"
+        app:layout_constraintBottom_toBottomOf="@+id/ivboss_battle"
+        app:layout_constraintEnd_toEndOf="@+id/ivboss_battle"
+        app:layout_constraintStart_toStartOf="@+id/ivboss_battle"
+        app:layout_constraintTop_toTopOf="@+id/ivboss_battle"
+        app:layout_constraintVertical_bias="0.194" />
+
+    <ImageView
+        android:id="@+id/ivboss_battle"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:onClick="onClick"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/ivlevel2"
+        app:layout_constraintHorizontal_bias="0.532"
+        app:layout_constraintStart_toStartOf="@+id/ivlevel2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.752"
+        app:srcCompat="@mipmap/boss_battle_preview" />
+
+    <TextView
+        android:id="@+id/boss_battle_best"
+        android:layout_width="75dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="12dp"
+        android:gravity="center"
+        android:text="Best:"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="@+id/ivboss_battle"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/ivboss_battle"
+        app:layout_constraintTop_toBottomOf="@+id/ivboss_battle" />
+
+    <TextView
+        android:id="@+id/boss_battle_time"
+        android:layout_width="120dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="12dp"
+        android:gravity="center_vertical"
+        android:text="'???'"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="@+id/boss_battle_best"
+        app:layout_constraintStart_toEndOf="@+id/boss_battle_best"
+        app:layout_constraintTop_toTopOf="@+id/boss_battle_best"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/elmo_boss_fight_bg"
+        android:layout_width="220dp"
+        android:layout_height="170dp"
+        android:background="#f20515"
+        app:layout_constraintBottom_toBottomOf="@+id/ivelmo_boss_fight"
+        app:layout_constraintEnd_toEndOf="@+id/ivelmo_boss_fight"
+        app:layout_constraintStart_toStartOf="@+id/ivelmo_boss_fight"
+        app:layout_constraintTop_toTopOf="@+id/ivelmo_boss_fight"
+        app:layout_constraintVertical_bias="0.194" />
+
+    <ImageView
+        android:id="@+id/ivelmo_boss_fight"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:onClick="onClick"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/ivlevel3"
+        app:layout_constraintHorizontal_bias="0.45"
+        app:layout_constraintStart_toStartOf="@+id/ivlevel3"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.752"
+        app:srcCompat="@mipmap/elmo_boss_fight_preview" />
+
+    <TextView
+        android:id="@+id/elmo_boss_fight_best"
+        android:layout_width="204dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="12dp"
+        android:gravity="center"
+        android:text="GOOD LUCK"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="@+id/ivelmo_boss_fight"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/ivelmo_boss_fight"
+        app:layout_constraintTop_toBottomOf="@+id/ivelmo_boss_fight" />
+
+
+
+
+
+    <ImageView
+        android:id="@+id/backtomenu"
+        android:layout_width="48dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="4dp"
+        android:onClick="onClick"
+        android:layout_marginTop="4dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:drawable/ic_menu_revert" />
+</androidx.constraintlayout.widget.ConstraintLayout>

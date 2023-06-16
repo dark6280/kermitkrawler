@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1027137809632",
+    "project_id": "kermit-krawler",
+    "storage_bucket": "kermit-krawler.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1027137809632:android:1f59aa5f08e2e23a633485",
+        "android_client_info": {
+          "package_name": "com.example.a6"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1027137809632-gnvms6h4u9kbcacmg87me5c5pvvm681v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.a6",
+            "certificate_hash": "ff6c61d4b2c7fa11fdf5e9af2e26f9789fb8a567"
+          }
+        },
+        {
+          "client_id": "1027137809632-lqojdatpldpklq1kie6700s8966sebun.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCIz6yFX36FgYuzYDUgVBsUY0aXMLsKags"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1027137809632-lqojdatpldpklq1kie6700s8966sebun.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

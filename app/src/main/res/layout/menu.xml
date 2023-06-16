@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/menu_background"
+    android:screenOrientation="landscape"
+    android:layoutDirection="ltr"
+    tools:context=".menu">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/username_edittext"
+            android:layout_width="570dp"
+            android:layout_height="42dp"
+            android:ems="10"
+            android:gravity=""
+            android:inputType="textPersonName"
+            android:text="Guest"
+            android:textColor="@color/black"
+            android:textSize="33dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.373"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.048" />
+
+        <TextView
+            android:id="@+id/tv_teamoney"
+            android:layout_width="53dp"
+            android:layout_height="26dp"
+            android:gravity="right"
+            android:text="0"
+            android:textAlignment="gravity"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.849"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.059" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            app:layout_constraintBottom_toBottomOf="@+id/tv_teamoney"
+            app:layout_constraintStart_toEndOf="@+id/tv_teamoney"
+            app:layout_constraintTop_toTopOf="@+id/tv_teamoney"
+            app:layout_constraintVertical_bias="0.541"
+            app:srcCompat="@mipmap/tea" />
+
+        <Button
+            android:id="@+id/btn_shop"
+            android:layout_width="130dp"
+            android:layout_height="46dp"
+            android:layout_marginEnd="28dp"
+            android:onClick="onClick"
+            android:text="shop"
+            app:layout_constraintBottom_toBottomOf="@+id/btn_leaderboard"
+            app:layout_constraintEnd_toStartOf="@+id/btn_leaderboard"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/btn_leaderboard"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <Button
+            android:id="@+id/btn_speedrun"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:onClick="onClick"
+            android:text="speedrun mode"
+            app:layout_constraintBottom_toBottomOf="@+id/btn_leaderboard"
+            app:layout_constraintStart_toEndOf="@+id/btn_leaderboard"
+            app:layout_constraintTop_toTopOf="@+id/btn_leaderboard"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <Button
+            android:id="@+id/btn_start"
+            android:layout_width="152dp"
+            android:layout_height="50dp"
+            android:layout_marginBottom="48dp"
+            android:onClick="onClick"
+            android:text="start"
+            app:layout_constraintBottom_toTopOf="@+id/btn_leaderboard"
+            app:layout_constraintEnd_toEndOf="@+id/btn_leaderboard"
+            app:layout_constraintStart_toStartOf="@+id/btn_leaderboard" />
+
+        <Button
+            android:id="@+id/btn_leaderboard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onClick"
+            android:text="leaderboard"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.325"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.875" />
+
+        <ImageView
+            android:id="@+id/kermits_eye"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:onClick="onClick"
+            android:visibility="invisible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.939"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.527"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <ImageView
+            android:id="@+id/Settings"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:onClick="Popupmenu"
+            android:scaleType="fitXY"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.976"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.051"
+            app:srcCompat="@mipmap/settingsicon" />
+
+        <ImageView
+            android:id="@+id/profilepic"
+            android:layout_width="42dp"
+            android:layout_height="42dp"
+            android:layout_marginEnd="52dp"
+            android:scaleType="fitXY"
+            app:layout_constraintBottom_toBottomOf="@+id/username_edittext"
+            app:layout_constraintEnd_toStartOf="@+id/username_edittext"
+            app:layout_constraintTop_toTopOf="@+id/username_edittext"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@mipmap/kermit_profilepic1" />
+
+        <ImageView
+            android:id="@+id/iv_editname"
+            android:layout_width="42dp"
+            android:layout_height="42dp"
+            android:onClick="onClick"
+            app:layout_constraintBottom_toBottomOf="@+id/username_edittext"
+            app:layout_constraintEnd_toStartOf="@+id/username_edittext"
+            app:layout_constraintStart_toEndOf="@+id/profilepic"
+            app:layout_constraintTop_toTopOf="@+id/username_edittext"
+            app:srcCompat="@mipmap/edit_name" />
+
+        <TextView
+            android:id="@+id/batteryTextView"
+            android:layout_width="58dp"
+            android:layout_height="31dp"
+            android:gravity="center"
+            android:text="0%"
+            android:textAlignment="gravity"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            app:layout_constraintBottom_toBottomOf="@+id/iv_battery"
+            app:layout_constraintEnd_toStartOf="@+id/iv_battery"
+            app:layout_constraintTop_toTopOf="@+id/iv_battery" />
+
+        <ImageView
+            android:id="@+id/iv_battery"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="72dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.979"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@mipmap/battery" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</RelativeLayout>

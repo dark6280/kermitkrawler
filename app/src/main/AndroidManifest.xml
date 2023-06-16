@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.a6">
+
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/kermit_profilepic1"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/kermit_profilepic1"
+        android:supportsRtl="false"
+        android:theme="@style/Theme.6"
+        tools:targetApi="31"
+        tools:ignore="Instantiatable">
+        <activity
+            android:name=".level2_act"
+            android:exported="false"
+            android:noHistory="true"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name=".speedrun_mode"
+            android:exported="false"
+            android:noHistory="true"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name=".level1_speedrunmode"
+            android:exported="false"
+            android:noHistory="true"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name=".level2_speedrunmode"
+            android:exported="false"
+            android:noHistory="true"
+            android:screenOrientation="landscape"/>
+         <activity
+        android:name=".level3_speedrunmode"
+        android:exported="false"
+        android:noHistory="true"
+        android:screenOrientation="landscape"/>
+        <activity
+            android:name=".level4_speedrunmode"
+            android:exported="false"
+            android:noHistory="true"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name=".AfterSpeedrunLevel"
+            android:exported="false"
+            android:noHistory="true"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name=".MainActivity"
+            android:exported="false"
+            android:noHistory="true"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name=".level4_act"
+            android:exported="false"
+            android:noHistory="true"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name=".kermit_rolled"
+            android:exported="false"
+            android:noHistory="true"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name=".was_it_worth_it"
+            android:exported="false"
+            android:noHistory="true"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name=".elmo_boss_fight"
+            android:exported="false"
+            android:noHistory="true"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name=".boss_fight_speedrunmode"
+            android:exported="false"
+            android:noHistory="true"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name=".lb_boss_battle"
+            android:exported="false"
+            android:noHistory="true"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name=".level3_act"
+            android:exported="false"
+            android:noHistory="true"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name=".gameover"
+            android:exported="false"
+            android:noHistory="true"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name=".lb_totalscore"
+            android:exported="false"
+            android:noHistory="true"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name=".lb_bestscore"
+            android:exported="false"
+            android:noHistory="true"
+            android:screenOrientation="landscape"/>
+
+        <activity
+            android:name=".boss_fight"
+            android:exported="false"
+            android:noHistory="true"
+            android:screenOrientation="landscape"/>
+
+        <activity
+            android:name=".lb_lvl1"
+            android:exported="false"
+            android:noHistory="true"
+            android:screenOrientation="landscape"/>
+
+        <activity
+            android:name=".lb_lvl2"
+            android:exported="false"
+            android:noHistory="true"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name=".lb_lvl3"
+            android:exported="false"
+            android:noHistory="true"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name=".lb_lvl4"
+            android:exported="false"
+            android:noHistory="true"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name=".shop"
+            android:exported="false"
+            android:noHistory="true"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name=".menu"
+            android:exported="true"
+            android:noHistory="true"
+            android:screenOrientation="landscape">
+            <intent-filter>
+
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="android.app.notification.channel.id"
+            android:value="ForegroundServiceChannel" />
+
+    </application>
+
+</manifest>

@@ -1,0 +1,987 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/leaderboard_bg">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline.title.1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.2" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline.ranks.end"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.74" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline.ranks.start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.35" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline.ranks.1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.2" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline.ranks.2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.27" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline.ranks.3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.34" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline.ranks.4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.41" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline.ranks.5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.48" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline.ranks.6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.55" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline.ranks.7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.62" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline.ranks.8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.69" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline.ranks.9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.76" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline.ranks.10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.83" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline.ranks.11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.9" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline.page.start.1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.185" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline.page.start.2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.265" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline.page.end.1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.74" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline.page.end.2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.82" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline.place.1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.265" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline.place.2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.33" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline.page.top"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.4" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline.page.bottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.6" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline.Rankmode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.9" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline.Ranking.modes1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.4825" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline.Ranking.modes2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.5225" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline.title.right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.9" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline.title.left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.1" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline.back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.07" />
+
+    <ImageView
+        android:id="@+id/ivback"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:onClick="onClick1"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintEnd_toStartOf="@+id/guideline.back"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:drawable/ic_menu_revert" />
+
+
+    <TextView
+        android:id="@+id/tvranking"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:autoSizeTextType="uniform"
+        android:clickable="false"
+        android:gravity="center"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toTopOf="@id/guideline.title.1"
+        app:layout_constraintEnd_toStartOf="@+id/guideline.title.right"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/guideline.title.left"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/btn_totalscore"
+        android:layout_width="125dp"
+        android:layout_height="41dp"
+        android:autoSizeTextType="uniform"
+        android:onClick="onClick1"
+        android:text="ttlscore"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+    <Button
+        android:id="@+id/btn_lvl1"
+        android:layout_width="125dp"
+        android:layout_height="41dp"
+        android:autoSizeTextType="uniform"
+        android:onClick="onClick1"
+        android:text="lvl1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btn_bestscore" />
+
+    <Button
+        android:id="@+id/btn_lvl2"
+        android:layout_width="125dp"
+        android:layout_height="41dp"
+        android:autoSizeTextType="uniform"
+        android:onClick="onClick1"
+        android:text="lvl2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btn_lvl1" />
+    <Button
+        android:id="@+id/btn_lvl3"
+        android:layout_width="125dp"
+        android:layout_height="41dp"
+        android:autoSizeTextType="uniform"
+        android:onClick="onClick1"
+        android:text="lvl3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btn_lvl2" />
+    <Button
+        android:id="@+id/btn_lvl4"
+        android:layout_width="125dp"
+        android:layout_height="41dp"
+        android:autoSizeTextType="uniform"
+        android:onClick="onClick1"
+        android:text="lvl4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btn_lvl3" />
+    <Button
+        android:id="@+id/btn_boss_battle"
+        android:layout_width="125dp"
+        android:layout_height="41dp"
+        android:autoSizeTextType="uniform"
+        android:onClick="onClick1"
+        android:text="boss"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btn_lvl4" />
+    <Button
+        android:id="@+id/btn_bestscore"
+        android:layout_width="125dp"
+        android:layout_height="41dp"
+        android:autoSizeTextType="uniform"
+        android:onClick="onClick1"
+        android:text="bestscore"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btn_totalscore" />
+
+    <TextView
+        android:id="@+id/tvrank1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:autoSizeTextType="uniform"
+        android:clickable="false"
+        android:gravity="center"
+        android:text="-------------"
+        app:layout_constraintBottom_toTopOf="@id/guideline.ranks.2"
+        app:layout_constraintEnd_toStartOf="@id/guideline.ranks.end"
+        app:layout_constraintStart_toEndOf="@id/guideline.place.1"
+        app:layout_constraintTop_toBottomOf="@id/guideline.ranks.1" />
+
+    <TextView
+        android:id="@+id/tvrank1score"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:autoSizeTextType="uniform"
+        android:clickable="false"
+        android:gravity="end|center_vertical"
+        android:maxLines="1"
+        android:text=""
+        app:layout_constraintBottom_toTopOf="@id/guideline.ranks.2"
+        app:layout_constraintDimensionRatio="2.5:1"
+        app:layout_constraintEnd_toStartOf="@id/guideline.ranks.end"
+        app:layout_constraintTop_toBottomOf="@id/guideline.ranks.1" />
+
+    <TextView
+        android:id="@+id/tvrank1name"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:autoSizeTextType="uniform"
+        android:clickable="false"
+        android:gravity="start|center_vertical"
+        android:maxLines="1"
+        android:text=""
+        app:layout_constraintBottom_toTopOf="@id/guideline.ranks.2"
+        app:layout_constraintDimensionRatio="6:1"
+        app:layout_constraintStart_toEndOf="@id/guideline.ranks.start"
+        app:layout_constraintTop_toBottomOf="@id/guideline.ranks.1" />
+
+    <TextView
+        android:id="@+id/tvrank2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:autoSizeTextType="uniform"
+        android:clickable="false"
+        android:gravity="center"
+        android:text="-------------"
+        app:layout_constraintBottom_toTopOf="@id/guideline.ranks.3"
+        app:layout_constraintEnd_toStartOf="@id/guideline.ranks.end"
+        app:layout_constraintStart_toEndOf="@id/guideline.place.1"
+        app:layout_constraintTop_toBottomOf="@id/guideline.ranks.2" />
+
+    <ImageView
+        android:id="@+id/ivrank1pic"
+        android:layout_width="29dp"
+        android:layout_height="29dp"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toTopOf="@+id/guideline.ranks.2"
+        app:layout_constraintEnd_toStartOf="@+id/guideline.ranks.start"
+        app:layout_constraintTop_toTopOf="@+id/guideline.title.1"
+        app:layout_constraintVertical_bias="0.0"
+        tools:srcCompat="@mipmap/guest2" />
+
+    <TextView
+        android:id="@+id/tvrank2score"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:autoSizeTextType="uniform"
+        android:clickable="false"
+        android:gravity="end|center_vertical"
+        android:maxLines="1"
+        android:text=""
+        app:layout_constraintBottom_toTopOf="@id/guideline.ranks.3"
+        app:layout_constraintDimensionRatio="2.5:1"
+        app:layout_constraintEnd_toStartOf="@id/guideline.ranks.end"
+        app:layout_constraintTop_toBottomOf="@id/guideline.ranks.2" />
+
+    <TextView
+        android:id="@+id/tvrank2name"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:autoSizeTextType="uniform"
+        android:clickable="false"
+        android:gravity="start|center_vertical"
+        android:maxLines="1"
+        android:text=""
+        app:layout_constraintBottom_toTopOf="@id/guideline.ranks.3"
+        app:layout_constraintDimensionRatio="6:1"
+        app:layout_constraintStart_toEndOf="@id/guideline.ranks.start"
+        app:layout_constraintTop_toBottomOf="@id/guideline.ranks.2" />
+
+
+    <TextView
+        android:id="@+id/tvrank3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:autoSizeTextType="uniform"
+        android:clickable="false"
+        android:gravity="center"
+        android:text="-------------"
+        app:layout_constraintBottom_toTopOf="@id/guideline.ranks.4"
+        app:layout_constraintEnd_toStartOf="@id/guideline.ranks.end"
+        app:layout_constraintStart_toEndOf="@id/guideline.place.1"
+        app:layout_constraintTop_toBottomOf="@id/guideline.ranks.3" />
+
+    <TextView
+        android:id="@+id/tvrank3score"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:autoSizeTextType="uniform"
+        android:clickable="false"
+        android:gravity="end|center_vertical"
+        android:maxLines="1"
+        android:text=""
+        app:layout_constraintBottom_toTopOf="@id/guideline.ranks.4"
+        app:layout_constraintDimensionRatio="2.5:1"
+        app:layout_constraintEnd_toStartOf="@id/guideline.ranks.end"
+        app:layout_constraintTop_toBottomOf="@id/guideline.ranks.3" />
+
+    <TextView
+        android:id="@+id/tvrank3name"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:autoSizeTextType="uniform"
+        android:clickable="false"
+        android:gravity="start|center_vertical"
+        android:maxLines="1"
+        android:text=""
+        app:layout_constraintBottom_toTopOf="@id/guideline.ranks.4"
+        app:layout_constraintDimensionRatio="6:1"
+        app:layout_constraintStart_toEndOf="@id/guideline.ranks.start"
+        app:layout_constraintTop_toBottomOf="@id/guideline.ranks.3" />
+
+    <TextView
+        android:id="@+id/tvrank4"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:autoSizeTextType="uniform"
+        android:clickable="false"
+        android:gravity="center"
+        android:text="-------------"
+        app:layout_constraintBottom_toTopOf="@id/guideline.ranks.5"
+        app:layout_constraintEnd_toStartOf="@id/guideline.ranks.end"
+        app:layout_constraintStart_toEndOf="@id/guideline.place.1"
+        app:layout_constraintTop_toBottomOf="@id/guideline.ranks.4" />
+
+    <TextView
+        android:id="@+id/tvrank4score"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:autoSizeTextType="uniform"
+        android:clickable="false"
+        android:gravity="end|center_vertical"
+        android:maxLines="1"
+        android:text=""
+        app:layout_constraintBottom_toTopOf="@id/guideline.ranks.5"
+        app:layout_constraintDimensionRatio="2.5:1"
+        app:layout_constraintEnd_toStartOf="@id/guideline.ranks.end"
+        app:layout_constraintTop_toBottomOf="@id/guideline.ranks.4" />
+
+    <TextView
+        android:id="@+id/tvrank4name"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:autoSizeTextType="uniform"
+        android:clickable="false"
+        android:gravity="start|center_vertical"
+        android:maxLines="1"
+        android:text=""
+        app:layout_constraintBottom_toTopOf="@id/guideline.ranks.5"
+        app:layout_constraintDimensionRatio="6:1"
+        app:layout_constraintStart_toEndOf="@id/guideline.ranks.start"
+        app:layout_constraintTop_toBottomOf="@id/guideline.ranks.4" />
+
+    <TextView
+        android:id="@+id/tvrank5"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:autoSizeTextType="uniform"
+        android:clickable="false"
+        android:gravity="center"
+        android:text="-------------"
+        app:layout_constraintBottom_toTopOf="@id/guideline.ranks.6"
+        app:layout_constraintEnd_toStartOf="@id/guideline.ranks.end"
+        app:layout_constraintStart_toEndOf="@id/guideline.place.1"
+        app:layout_constraintTop_toBottomOf="@id/guideline.ranks.5" />
+
+    <TextView
+        android:id="@+id/tvrank5score"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:autoSizeTextType="uniform"
+        android:clickable="false"
+        android:gravity="end|center_vertical"
+        android:maxLines="1"
+        android:text=""
+        app:layout_constraintBottom_toTopOf="@id/guideline.ranks.6"
+        app:layout_constraintDimensionRatio="2.5:1"
+        app:layout_constraintEnd_toStartOf="@id/guideline.ranks.end"
+        app:layout_constraintTop_toBottomOf="@id/guideline.ranks.5" />
+
+    <TextView
+        android:id="@+id/tvrank5name"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:autoSizeTextType="uniform"
+        android:clickable="false"
+        android:gravity="start|center_vertical"
+        android:maxLines="1"
+        android:text=""
+        app:layout_constraintBottom_toTopOf="@id/guideline.ranks.6"
+        app:layout_constraintDimensionRatio="6:1"
+        app:layout_constraintStart_toEndOf="@id/guideline.ranks.start"
+        app:layout_constraintTop_toBottomOf="@id/guideline.ranks.5" />
+
+    <TextView
+        android:id="@+id/tvrank6"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:autoSizeTextType="uniform"
+        android:clickable="false"
+        android:gravity="center"
+        android:text="-------------"
+        app:layout_constraintBottom_toTopOf="@id/guideline.ranks.7"
+        app:layout_constraintEnd_toStartOf="@id/guideline.ranks.end"
+        app:layout_constraintStart_toEndOf="@id/guideline.place.1"
+        app:layout_constraintTop_toBottomOf="@id/guideline.ranks.6" />
+
+    <TextView
+        android:id="@+id/tvrank6score"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:autoSizeTextType="uniform"
+        android:clickable="false"
+        android:gravity="end|center_vertical"
+        android:maxLines="1"
+        android:text=""
+        app:layout_constraintBottom_toTopOf="@id/guideline.ranks.7"
+        app:layout_constraintDimensionRatio="2.5:1"
+        app:layout_constraintEnd_toStartOf="@id/guideline.ranks.end"
+        app:layout_constraintTop_toBottomOf="@id/guideline.ranks.6" />
+
+    <TextView
+        android:id="@+id/tvrank6name"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:autoSizeTextType="uniform"
+        android:clickable="false"
+        android:gravity="start|center_vertical"
+        android:maxLines="1"
+        android:text=""
+        app:layout_constraintBottom_toTopOf="@id/guideline.ranks.7"
+        app:layout_constraintDimensionRatio="6:1"
+        app:layout_constraintStart_toEndOf="@id/guideline.ranks.start"
+        app:layout_constraintTop_toBottomOf="@id/guideline.ranks.6" />
+
+    <TextView
+        android:id="@+id/tvrank7"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:autoSizeTextType="uniform"
+        android:clickable="false"
+        android:gravity="center"
+        android:text="-------------"
+        app:layout_constraintBottom_toTopOf="@id/guideline.ranks.8"
+        app:layout_constraintEnd_toStartOf="@id/guideline.ranks.end"
+        app:layout_constraintStart_toEndOf="@id/guideline.place.1"
+        app:layout_constraintTop_toBottomOf="@id/guideline.ranks.7" />
+
+    <TextView
+        android:id="@+id/tvrank7score"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:autoSizeTextType="uniform"
+        android:clickable="false"
+        android:gravity="end|center_vertical"
+        android:maxLines="1"
+        android:text=""
+        app:layout_constraintBottom_toTopOf="@id/guideline.ranks.8"
+        app:layout_constraintDimensionRatio="2.5:1"
+        app:layout_constraintEnd_toStartOf="@id/guideline.ranks.end"
+        app:layout_constraintTop_toBottomOf="@id/guideline.ranks.7" />
+
+    <TextView
+        android:id="@+id/tvrank7name"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:autoSizeTextType="uniform"
+        android:clickable="false"
+        android:gravity="start|center_vertical"
+        android:maxLines="1"
+        android:text=""
+        app:layout_constraintBottom_toTopOf="@id/guideline.ranks.8"
+        app:layout_constraintDimensionRatio="6:1"
+        app:layout_constraintStart_toEndOf="@id/guideline.ranks.start"
+        app:layout_constraintTop_toBottomOf="@id/guideline.ranks.7" />
+
+    <TextView
+        android:id="@+id/tvrank8"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:autoSizeTextType="uniform"
+        android:clickable="false"
+        android:gravity="center"
+        android:text="-------------"
+        app:layout_constraintBottom_toTopOf="@id/guideline.ranks.9"
+        app:layout_constraintEnd_toStartOf="@id/guideline.ranks.end"
+        app:layout_constraintStart_toEndOf="@id/guideline.place.1"
+        app:layout_constraintTop_toBottomOf="@id/guideline.ranks.8" />
+
+
+    <TextView
+        android:id="@+id/tvrank8score"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:autoSizeTextType="uniform"
+        android:clickable="false"
+        android:gravity="end|center_vertical"
+        android:maxLines="1"
+        android:text=""
+        app:layout_constraintBottom_toTopOf="@id/guideline.ranks.9"
+        app:layout_constraintDimensionRatio="2.5:1"
+        app:layout_constraintEnd_toStartOf="@id/guideline.ranks.end"
+        app:layout_constraintTop_toBottomOf="@id/guideline.ranks.8" />
+
+
+    <TextView
+        android:id="@+id/tvrank8name"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:autoSizeTextType="uniform"
+        android:clickable="false"
+        android:gravity="start|center_vertical"
+        android:maxLines="1"
+        android:text=""
+        app:layout_constraintBottom_toTopOf="@id/guideline.ranks.9"
+        app:layout_constraintDimensionRatio="6:1"
+        app:layout_constraintStart_toEndOf="@id/guideline.ranks.start"
+        app:layout_constraintTop_toBottomOf="@id/guideline.ranks.8" />
+
+    <TextView
+        android:id="@+id/tvrank9"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:autoSizeTextType="uniform"
+        android:clickable="false"
+        android:gravity="center"
+        android:text="-------------"
+        app:layout_constraintBottom_toTopOf="@id/guideline.ranks.10"
+        app:layout_constraintEnd_toStartOf="@id/guideline.ranks.end"
+        app:layout_constraintStart_toEndOf="@id/guideline.place.1"
+        app:layout_constraintTop_toBottomOf="@id/guideline.ranks.9" />
+
+    <TextView
+        android:id="@+id/tvrank9score"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:autoSizeTextType="uniform"
+        android:clickable="false"
+        android:gravity="end|center_vertical"
+        android:maxLines="1"
+        android:text=""
+        app:layout_constraintBottom_toTopOf="@id/guideline.ranks.10"
+        app:layout_constraintDimensionRatio="2.5:1"
+        app:layout_constraintEnd_toStartOf="@id/guideline.ranks.end"
+        app:layout_constraintTop_toBottomOf="@id/guideline.ranks.9" />
+
+    <TextView
+        android:id="@+id/tvrank9name"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:autoSizeTextType="uniform"
+        android:clickable="false"
+        android:gravity="start|center_vertical"
+        android:maxLines="1"
+        android:text=""
+        app:layout_constraintBottom_toTopOf="@id/guideline.ranks.10"
+        app:layout_constraintDimensionRatio="6:1"
+        app:layout_constraintStart_toEndOf="@id/guideline.ranks.start"
+        app:layout_constraintTop_toBottomOf="@id/guideline.ranks.9" />
+
+    <TextView
+        android:id="@+id/tvrank10"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:autoSizeTextType="uniform"
+        android:clickable="false"
+        android:gravity="center"
+        android:text="-------------"
+        app:layout_constraintBottom_toTopOf="@id/guideline.ranks.11"
+        app:layout_constraintEnd_toStartOf="@id/guideline.ranks.end"
+        app:layout_constraintStart_toEndOf="@id/guideline.place.1"
+        app:layout_constraintTop_toBottomOf="@id/guideline.ranks.10" />
+
+    <TextView
+        android:id="@+id/tvrank10score"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:autoSizeTextType="uniform"
+        android:clickable="false"
+        android:gravity="end|center_vertical"
+        android:maxLines="1"
+        android:text=""
+        app:layout_constraintBottom_toTopOf="@id/guideline.ranks.11"
+        app:layout_constraintDimensionRatio="2.5:1"
+        app:layout_constraintEnd_toStartOf="@id/guideline.ranks.end"
+        app:layout_constraintTop_toBottomOf="@id/guideline.ranks.10" />
+
+    <TextView
+        android:id="@+id/tvrank10name"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:autoSizeTextType="uniform"
+        android:clickable="false"
+        android:gravity="start|center_vertical"
+        android:maxLines="1"
+        android:text=""
+        app:layout_constraintBottom_toTopOf="@id/guideline.ranks.11"
+        app:layout_constraintDimensionRatio="6:1"
+        app:layout_constraintStart_toEndOf="@id/guideline.ranks.start"
+        app:layout_constraintTop_toBottomOf="@id/guideline.ranks.10" />
+
+    <TextView
+        android:id="@+id/tvplace1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:autoSizeTextType="uniform"
+        android:clickable="false"
+        android:gravity="center"
+        android:text="1."
+        app:layout_constraintBottom_toTopOf="@id/guideline.ranks.2"
+        app:layout_constraintEnd_toStartOf="@id/guideline.place.2"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@id/guideline.place.1"
+        app:layout_constraintTop_toBottomOf="@id/guideline.ranks.1" />
+
+    <TextView
+        android:id="@+id/tvplace2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:autoSizeTextType="uniform"
+        android:clickable="false"
+        android:gravity="center"
+        android:text="2."
+        app:layout_constraintBottom_toTopOf="@id/guideline.ranks.3"
+        app:layout_constraintEnd_toStartOf="@id/guideline.place.2"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@id/guideline.place.1"
+        app:layout_constraintTop_toBottomOf="@id/guideline.ranks.2" />
+
+    <TextView
+        android:id="@+id/tvplace3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:autoSizeTextType="uniform"
+        android:clickable="false"
+        android:gravity="center"
+        android:text="3."
+        app:layout_constraintBottom_toTopOf="@id/guideline.ranks.4"
+        app:layout_constraintEnd_toStartOf="@id/guideline.place.2"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@id/guideline.place.1"
+        app:layout_constraintTop_toBottomOf="@id/guideline.ranks.3" />
+
+    <TextView
+        android:id="@+id/tvplace4"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:autoSizeTextType="uniform"
+        android:clickable="false"
+        android:gravity="center"
+        android:text="4."
+        app:layout_constraintBottom_toTopOf="@id/guideline.ranks.5"
+        app:layout_constraintEnd_toStartOf="@id/guideline.place.2"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@id/guideline.place.1"
+        app:layout_constraintTop_toBottomOf="@id/guideline.ranks.4" />
+
+    <TextView
+        android:id="@+id/tvplace5"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:autoSizeTextType="uniform"
+        android:clickable="false"
+        android:gravity="center"
+        android:text="5."
+        app:layout_constraintBottom_toTopOf="@id/guideline.ranks.6"
+        app:layout_constraintEnd_toStartOf="@id/guideline.place.2"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@id/guideline.place.1"
+        app:layout_constraintTop_toBottomOf="@id/guideline.ranks.5" />
+
+    <TextView
+        android:id="@+id/tvplace6"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:autoSizeTextType="uniform"
+        android:clickable="false"
+        android:gravity="center"
+        android:text="6."
+        app:layout_constraintBottom_toTopOf="@id/guideline.ranks.7"
+        app:layout_constraintEnd_toStartOf="@id/guideline.place.2"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@id/guideline.place.1"
+        app:layout_constraintTop_toBottomOf="@id/guideline.ranks.6" />
+
+    <TextView
+        android:id="@+id/tvplace7"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:autoSizeTextType="uniform"
+        android:clickable="false"
+        android:gravity="center"
+        android:text="7."
+        app:layout_constraintBottom_toTopOf="@id/guideline.ranks.8"
+        app:layout_constraintEnd_toStartOf="@id/guideline.place.2"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@id/guideline.place.1"
+        app:layout_constraintTop_toBottomOf="@id/guideline.ranks.7" />
+
+    <TextView
+        android:id="@+id/tvplace8"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:autoSizeTextType="uniform"
+        android:clickable="false"
+        android:gravity="center"
+        android:text="8."
+        app:layout_constraintBottom_toTopOf="@id/guideline.ranks.9"
+        app:layout_constraintEnd_toStartOf="@id/guideline.place.2"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@id/guideline.place.1"
+        app:layout_constraintTop_toBottomOf="@id/guideline.ranks.8" />
+
+    <TextView
+        android:id="@+id/tvplace9"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:autoSizeTextType="uniform"
+        android:clickable="false"
+        android:gravity="center"
+        android:text="9."
+        app:layout_constraintBottom_toTopOf="@id/guideline.ranks.10"
+        app:layout_constraintEnd_toStartOf="@id/guideline.place.2"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@id/guideline.place.1"
+        app:layout_constraintTop_toBottomOf="@id/guideline.ranks.9" />
+
+    <TextView
+        android:id="@+id/tvplace10"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:autoSizeTextType="uniform"
+        android:clickable="false"
+        android:gravity="center"
+        android:text="10."
+        app:layout_constraintBottom_toTopOf="@id/guideline.ranks.11"
+        app:layout_constraintEnd_toStartOf="@id/guideline.place.2"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@id/guideline.place.1"
+        app:layout_constraintTop_toBottomOf="@id/guideline.ranks.10" />
+
+    <ImageView
+        android:id="@+id/ivnextpage"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/nextpage"
+        android:onClick="onClick1"
+        app:layout_constraintBottom_toTopOf="@id/guideline.page.bottom"
+        app:layout_constraintEnd_toStartOf="@id/guideline.page.end.2"
+        app:layout_constraintStart_toEndOf="@id/guideline.page.end.1"
+        app:layout_constraintTop_toBottomOf="@id/guideline.page.top" />
+
+    <ImageView
+        android:id="@+id/ivlastpage"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/lastpage"
+        android:onClick="onClick1"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@id/guideline.page.bottom"
+        app:layout_constraintEnd_toStartOf="@id/guideline.page.start.2"
+        app:layout_constraintStart_toEndOf="@id/guideline.page.start.1"
+        app:layout_constraintTop_toBottomOf="@id/guideline.page.top" />
+
+    <ImageView
+        android:id="@+id/ivrank2pic"
+        android:layout_width="29dp"
+        android:layout_height="29dp"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toTopOf="@+id/guideline.ranks.3"
+        app:layout_constraintEnd_toStartOf="@+id/guideline.ranks.start"
+        app:layout_constraintTop_toTopOf="@+id/guideline.ranks.2"
+        app:layout_constraintVertical_bias="0.0"
+        tools:srcCompat="@mipmap/guest2" />
+
+
+    <ImageView
+        android:id="@+id/ivrank3pic"
+        android:layout_width="29dp"
+        android:layout_height="29dp"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toTopOf="@+id/guideline.ranks.4"
+        app:layout_constraintEnd_toStartOf="@+id/guideline.ranks.start"
+        app:layout_constraintTop_toTopOf="@+id/guideline.ranks.3"
+        app:layout_constraintVertical_bias="0.0"
+        tools:srcCompat="@mipmap/guest2" />
+
+    <ImageView
+        android:id="@+id/ivrank4pic"
+        android:layout_width="29dp"
+        android:layout_height="29dp"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toTopOf="@+id/guideline.ranks.5"
+        app:layout_constraintEnd_toStartOf="@+id/guideline.ranks.start"
+        app:layout_constraintTop_toTopOf="@+id/guideline.ranks.4"
+        app:layout_constraintVertical_bias="0.0"
+        tools:srcCompat="@mipmap/guest2" />
+
+    <ImageView
+        android:id="@+id/ivrank5pic"
+        android:layout_width="29dp"
+        android:layout_height="29dp"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toTopOf="@+id/guideline.ranks.6"
+        app:layout_constraintEnd_toStartOf="@+id/guideline.ranks.start"
+        app:layout_constraintTop_toTopOf="@+id/guideline.ranks.5"
+        app:layout_constraintVertical_bias="0.0"
+        tools:srcCompat="@mipmap/guest2" />
+
+    <ImageView
+        android:id="@+id/ivrank6pic"
+        android:layout_width="29dp"
+        android:layout_height="29dp"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toTopOf="@+id/guideline.ranks.7"
+        app:layout_constraintEnd_toStartOf="@+id/guideline.ranks.start"
+        app:layout_constraintTop_toTopOf="@+id/guideline.ranks.6"
+        app:layout_constraintVertical_bias="0.0"
+        tools:srcCompat="@mipmap/guest2" />
+
+    <ImageView
+        android:id="@+id/ivrank7pic"
+        android:layout_width="29dp"
+        android:layout_height="29dp"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toTopOf="@+id/guideline.ranks.8"
+        app:layout_constraintEnd_toStartOf="@+id/guideline.ranks.start"
+        app:layout_constraintTop_toTopOf="@+id/guideline.ranks.7"
+        app:layout_constraintVertical_bias="0.0"
+        tools:srcCompat="@mipmap/guest2" />
+
+    <ImageView
+        android:id="@+id/ivrank8pic"
+        android:layout_width="29dp"
+        android:layout_height="29dp"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toTopOf="@+id/guideline.ranks.9"
+        app:layout_constraintEnd_toStartOf="@+id/guideline.ranks.start"
+        app:layout_constraintTop_toTopOf="@+id/guideline.ranks.8"
+        app:layout_constraintVertical_bias="0.0"
+        tools:srcCompat="@mipmap/guest2" />
+
+    <ImageView
+        android:id="@+id/ivrank9pic"
+        android:layout_width="29dp"
+        android:layout_height="29dp"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toTopOf="@+id/guideline.ranks.10"
+        app:layout_constraintEnd_toStartOf="@+id/guideline.ranks.start"
+        app:layout_constraintTop_toTopOf="@+id/guideline.ranks.9"
+        app:layout_constraintVertical_bias="0.0"
+        tools:srcCompat="@mipmap/guest2" />
+
+    <ImageView
+        android:id="@+id/ivrank10pic"
+        android:layout_width="29dp"
+        android:layout_height="29dp"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toTopOf="@+id/guideline.ranks.11"
+        app:layout_constraintEnd_toStartOf="@+id/guideline.ranks.start"
+        app:layout_constraintTop_toTopOf="@+id/guideline.ranks.10"
+        app:layout_constraintVertical_bias="0.0"
+        tools:srcCompat="@mipmap/guest2" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

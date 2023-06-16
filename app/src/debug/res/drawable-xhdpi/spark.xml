@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="false">
+    <item android:drawable="@drawable/spark_part1" android:duration="100" />
+    <item android:drawable="@drawable/spark_part2" android:duration="100" />
+    <item android:drawable="@drawable/spark_part3" android:duration="100" />
+    <item android:drawable="@drawable/spark_part4" android:duration="100" />
+    <item android:drawable="@drawable/spark_part5" android:duration="100" />
+    <item android:drawable="@drawable/spark_part6" android:duration="100" />
+    <item android:drawable="@drawable/spark_part7" android:duration="100" />
+</animation-list>
